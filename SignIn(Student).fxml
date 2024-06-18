@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebdbff" height="406.0" layoutX="-6.0" layoutY="-1.0" stroke="#ebdbff" strokeType="INSIDE" width="609.0" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+      <Text layoutX="242.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Student">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Text>
+      <Circle fill="WHITE" layoutX="299.0" layoutY="145.0" radius="43.0" stroke="#fffefe" strokeType="INSIDE" />
+      <Text layoutX="30.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="21.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maill Address">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="31.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="32.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Birthyear">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Text>
+      <TextField layoutX="118.0" layoutY="200.0" />
+      <TextField layoutX="118.0" layoutY="274.0" />
+      <TextField layoutX="118.0" layoutY="237.0" />
+      <ComboBox layoutX="148.0" layoutY="310.0" prefHeight="30.0" prefWidth="86.0" />
+      <Text layoutX="310.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mode">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="295.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Parent's Age">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Text>
+      <ComboBox layoutX="382.0" layoutY="201.0" prefHeight="30.0" prefWidth="113.0" />
+      <ComboBox layoutX="382.0" layoutY="257.0" prefHeight="30.0" prefWidth="113.0" />
+      <Text layoutX="310.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(If you're under 16, please use parent mode)">
+         <font>
+            <Font name="Times New Roman" size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="275.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you slected parents mode, you have to answer this; otherwise you can skip)">
+         <font>
+            <Font name="Times New Roman" size="10.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#493175" height="26.0" layoutX="452.0" layoutY="347.0" stroke="#493175" strokeType="INSIDE" width="115.0" />
+      <Circle fill="#493175" layoutX="452.0" layoutY="360.0" radius="13.0" stroke="#493175" strokeType="INSIDE" />
+      <Circle fill="#493175" layoutX="567.0" layoutY="360.0" radius="13.0" stroke="#493175" strokeType="INSIDE" />
+      <Text fill="WHITE" layoutX="469.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Profile" />
+   </children>
+</AnchorPane>
