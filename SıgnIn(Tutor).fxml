@@ -9,10 +9,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebdbff" height="406.0" layoutX="-6.0" layoutY="-1.0" stroke="#ebdbff" strokeType="INSIDE" width="609.0" />
-      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+      <Button fx:id="BackToLogInTutor" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
       <Text layoutX="249.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Tutor">
          <font>
             <Font name="Times New Roman Bold" size="20.0" />
@@ -39,9 +39,9 @@
             <Font name="Times New Roman" size="13.0" />
          </font>
       </Text>
-      <TextField layoutX="118.0" layoutY="200.0" />
-      <TextField layoutX="118.0" layoutY="274.0" />
-      <TextField layoutX="118.0" layoutY="237.0" />
+      <TextField fx:id="TutorUsernameSignIn" layoutX="118.0" layoutY="200.0" />
+      <TextField fx:id="TutorPassword" layoutX="118.0" layoutY="274.0" />
+      <TextField fx:id="TutorMail" layoutX="118.0" layoutY="237.0" />
       <Text layoutX="310.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Branch">
          <font>
             <Font name="Times New Roman" size="13.0" />
@@ -52,11 +52,11 @@
             <Font name="Times New Roman" size="13.0" />
          </font>
       </Text>
-      <ComboBox layoutX="390.0" layoutY="201.0" prefHeight="30.0" prefWidth="113.0" />
-      <ComboBox layoutX="390.0" layoutY="240.0" prefHeight="30.0" prefWidth="113.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#493175" height="26.0" layoutX="452.0" layoutY="347.0" stroke="#493175" strokeType="INSIDE" width="115.0" />
-      <Circle fill="#493175" layoutX="452.0" layoutY="360.0" radius="13.0" stroke="#493175" strokeType="INSIDE" />
-      <Circle fill="#493175" layoutX="567.0" layoutY="360.0" radius="13.0" stroke="#493175" strokeType="INSIDE" />
-      <Text fill="WHITE" layoutX="469.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Profile" />
+      <ComboBox fx:id="TutorBranch" layoutX="390.0" layoutY="201.0" prefHeight="30.0" prefWidth="113.0" />
+      <ComboBox fx:id="TutorExperience" layoutX="390.0" layoutY="240.0" prefHeight="30.0" prefWidth="113.0" />
+      <Rectangle fx:id="TutorCreateProfileRect" arcHeight="5.0" arcWidth="5.0" fill="#493175" height="26.0" layoutX="452.0" layoutY="347.0" stroke="#493175" strokeType="INSIDE" width="115.0" />
+      <Circle fx:id="tutorCreateProfileCL" fill="#493175" layoutX="452.0" layoutY="360.0" radius="13.0" stroke="#493175" strokeType="INSIDE" />
+      <Circle fx:id="TutorCreateProfileCR" fill="#493175" layoutX="567.0" layoutY="360.0" radius="13.0" stroke="#493175" strokeType="INSIDE" />
+      <Text fx:id="TutorCreateProfile" fill="WHITE" layoutX="469.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Profile" />
    </children>
 </AnchorPane>
