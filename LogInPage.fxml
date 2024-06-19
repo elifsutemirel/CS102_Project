@@ -39,11 +39,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#493175" height="411.0" layoutX="-3.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="309.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d4b9e1" height="403.0" layoutX="304.0" stroke="#d4b9e1" strokeType="INSIDE" width="299.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebdbff" height="403.0" layoutX="304.0" stroke="#ebdbff" strokeType="INSIDE" width="299.0" />
       <Text fill="WHITE" layoutX="145.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="findT!">
          <font>
             <Font name="BM YEONSUNG OTF" size="24.0" />
@@ -76,14 +75,14 @@
             <Font name="Times New Roman" size="16.0" />
          </font>
       </Text>
-      <TextField layoutX="152.0" layoutY="240.0" prefHeight="30.0" prefWidth="133.0" />
+      <TextField fx:id="studentUsername" layoutX="152.0" layoutY="240.0" prefHeight="30.0" prefWidth="133.0" />
       <Text fill="WHITE" layoutX="20.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username or Mail">
          <font>
             <Font name="Times New Roman" size="16.0" />
          </font>
       </Text>
-      <TextField layoutX="152.0" layoutY="280.0" prefHeight="30.0" prefWidth="133.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="106.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" width="101.0" />
+      <TextField fx:id="studentPassword" layoutX="152.0" layoutY="280.0" prefHeight="30.0" prefWidth="133.0" />
+      <Rectangle fx:id="studentLogIn" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="106.0" layoutY="325.0" stroke="BLACK" strokeType="INSIDE" width="101.0" />
       <Circle fill="WHITE" layoutX="208.0" layoutY="338.0" radius="11.0" stroke="WHITE" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="106.0" layoutY="338.0" radius="11.0" stroke="WHITE" strokeType="INSIDE" />
       <Text layoutX="321.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username or Mail">
@@ -96,9 +95,9 @@
             <Font name="Times New Roman" size="16.0" />
          </font>
       </Text>
-      <TextField layoutX="449.0" layoutY="239.0" prefHeight="30.0" prefWidth="133.0" />
-      <TextField layoutX="449.0" layoutY="280.0" prefHeight="30.0" prefWidth="133.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="403.0" layoutY="325.0" stroke="WHITE" strokeType="INSIDE" width="101.0" />
+      <TextField fx:id="tutorUsername" layoutX="449.0" layoutY="239.0" prefHeight="30.0" prefWidth="133.0" />
+      <TextField fx:id="tutorPassword" layoutX="449.0" layoutY="280.0" prefHeight="30.0" prefWidth="133.0" />
+      <Rectangle fx:id="tutorLogIn" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="403.0" layoutY="325.0" stroke="WHITE" strokeType="INSIDE" width="101.0" />
       <Circle fill="WHITE" layoutX="504.0" layoutY="338.0" radius="13.0" stroke="WHITE" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="401.0" layoutY="338.0" radius="13.0" stroke="WHITE" strokeType="INSIDE" />
       <Text layoutX="139.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In ">
@@ -107,6 +106,16 @@
          </font>
       </Text>
       <Text layoutX="433.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In ">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Text>
+      <Text fx:id="studentSıgnIn" fill="WHITE" layoutX="75.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account? Sign in">
+         <font>
+            <Font name="Times New Roman" size="13.0" />
+         </font>
+      </Text>
+      <Text layoutX="371.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account? Sign in">
          <font>
             <Font name="Times New Roman" size="13.0" />
          </font>
