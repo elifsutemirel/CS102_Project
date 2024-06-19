@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #d4b9e1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back">
+         <font>
+            <Font name="Times New Roman" size="11.0" />
+         </font>
+      </Button>
+      <TextField layoutX="61.0" layoutY="12.0" prefHeight="25.0" prefWidth="355.0" promptText="Search by subject...">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </TextField>
+      <ComboBox layoutX="428.0" layoutY="12.0" prefHeight="25.0" prefWidth="68.0" promptText=" price range" />
+      <ComboBox layoutX="514.0" layoutY="12.0" prefHeight="25.0" prefWidth="68.0" promptText="lesson type" />
+      <Line endX="-103.33331298828125" endY="36.999996185302734" layoutX="502.0" layoutY="-11.0" startX="-94.66668701171875" startY="43.666664123535156" />
+      <Circle fill="#d4b9e1" layoutX="399.0" layoutY="25.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <ScrollPane layoutX="14.0" layoutY="55.0" prefHeight="331.0" prefWidth="569.0">
+         <content>
+            <VBox prefHeight="327.0" prefWidth="569.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
