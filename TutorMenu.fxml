@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d4b9e1" height="400.0" stroke="#d4b9e1" strokeType="INSIDE" width="177.0" />
+      <Button fx:id="SettingsButtonTutor" layoutX="16.0" layoutY="346.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Settings">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="chatButtonTutor" layoutX="16.0" layoutY="304.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Chat">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="27.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FindT!">
+         <font>
+            <Font name="BM YEONSUNG OTF" size="24.0" />
+         </font>
+      </Text>
+      <Circle fx:id="profileTutor" fill="WHITE" layoutX="46.0" layoutY="87.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" />
+      <Text layoutX="85.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text layoutX="41.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserMailAdress" />
+      <Text layoutX="191.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Program">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="266.0" layoutX="240.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" width="332.0" />
+      <Button fx:id="addButton" layoutX="561.0" layoutY="28.0" mnemonicParsing="false" text="+" />
+      <Text layoutX="259.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mon" />
+      <Rectangle fx:id="mon9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="252.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="mon10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="252.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="mon11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="252.0" layoutY="180.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="mon12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="252.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="mon13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="252.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="tue9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="297.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="wed9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="342.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="thu9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="387.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="fri9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="432.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sat9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="477.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sun9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="522.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="mon14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="252.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="mon15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="252.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="mon16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="252.0" layoutY="330.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="tue10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="297.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="tue11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="297.0" layoutY="180.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="tue12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="297.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="tue13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="297.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="tue14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="297.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="tue15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="297.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="tue16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="297.0" layoutY="330.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="wed10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="342.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="wed11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="342.0" layoutY="180.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="wed12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="342.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="wed13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="342.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="wed14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="342.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="wed15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="342.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="wed16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="342.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="thu10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="387.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="thu11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="387.0" layoutY="180.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="thu12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="387.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="thu13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="387.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="thu14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="387.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="thu15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="387.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="thu16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="387.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="fri10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="432.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="fri11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="432.0" layoutY="180.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="fri12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="432.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="fri13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="432.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="fri14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="432.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="fri15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="432.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="fri16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="432.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sat10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="477.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sun10" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="522.0" layoutY="150.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sat11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="477.0" layoutY="180.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sat12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="477.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sat13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="477.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sat14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="477.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sat15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="477.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sat16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="477.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sun11" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="522.0" layoutY="180.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sun12" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="522.0" layoutY="210.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sun13" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="522.0" layoutY="240.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sun14" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="522.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sun15" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="522.0" layoutY="300.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Rectangle fx:id="sun16" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="26.0" layoutX="522.0" layoutY="333.0" stroke="BLACK" strokeType="INSIDE" width="38.0" />
+      <Text layoutX="304.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tue" />
+      <Text layoutX="350.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wed" />
+      <Text layoutX="393.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thu" />
+      <Text layoutX="489.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sat" />
+      <Text layoutX="444.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fri" />
+      <Text layoutX="530.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sun" />
+      <Text layoutX="191.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="09.00-10.00" wrappingWidth="48.2490234375">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="192.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.00-11.00" wrappingWidth="48.2490234375">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="192.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11.00-12.00" wrappingWidth="48.2490234375">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="191.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12.00-13.00" wrappingWidth="48.2490234375">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="191.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13.00-14.00" wrappingWidth="48.2490234375">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="191.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14.00-15.00" wrappingWidth="48.2490234375">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="191.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15.00-16.00" wrappingWidth="48.2490234375">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="191.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16.00-17.00" wrappingWidth="48.2490234375">
+         <font>
+            <Font size="8.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
