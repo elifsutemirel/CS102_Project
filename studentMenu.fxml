@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d4b9e1" height="400.0" stroke="#d4b9e1" strokeType="INSIDE" width="177.0" />
       <Button fx:id="settingsStudent" layoutX="16.0" layoutY="346.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Settings">
@@ -30,21 +31,40 @@
       <TextField fx:id="searchBar" layoutX="199.0" layoutY="30.0" prefHeight="26.0" prefWidth="379.0" promptText="Search" />
       <Circle fx:id="profileStudent" fill="WHITE" layoutX="46.0" layoutY="87.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" />
       <Text fx:id="usernameText" layoutX="85.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d4b9e1" height="132.0" layoutX="199.0" layoutY="238.0" stroke="#d4b9e1" strokeType="INSIDE" width="353.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d4b9e1" height="132.0" layoutX="199.0" layoutY="88.0" stroke="#d4b9e1" strokeType="INSIDE" width="353.0" />
-      <Button fx:id="sendMessageButton" layoutX="429.0" layoutY="179.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="115.0" text="Send message" />
-      <Button fx:id="sendMessageButton2" layoutX="429.0" layoutY="332.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="115.0" text="Send message" />
-      <Circle fx:id="tutorProfile" fill="WHITE" layoutX="233.0" layoutY="118.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" />
-      <Circle fx:id="tutorProfile2" fill="WHITE" layoutX="233.0" layoutY="270.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" />
-      <Text fx:id="tutornameText" layoutX="269.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tutor name" />
-      <Text layoutX="269.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tutor name " />
-      <Text fx:id="tutorFieldText" layoutX="269.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x tutor" />
-      <Text layoutX="269.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="x tutor" />
-      <Text layoutX="269.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="online/face to face" />
-      <Text layoutX="269.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="price" />
-      <Text fx:id="onlineText" layoutX="269.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="online/face to face" />
-      <Text fx:id="priceText" layoutX="269.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="price" />
       <Text fx:id="mailText" layoutX="41.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UserMailAdress" />
-      <ScrollBar layoutX="564.0" layoutY="88.0" orientation="VERTICAL" prefHeight="278.0" prefWidth="16.0" />
+      <ScrollPane layoutX="200.0" layoutY="78.0" prefHeight="294.0" prefWidth="372.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="381.0">
+               <children>
+                  <Pane layoutX="12.0" layoutY="149.0" prefHeight="121.0" prefWidth="332.0" style="-fx-background-color: d4b9e1;">
+                     <children>
+                        <Button layoutX="212.0" layoutY="81.0" mnemonicParsing="false" text="send a message" />
+                        <Text layoutX="70.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="price" />
+                        <Circle fx:id="profileStudent11" fill="WHITE" layoutX="27.0" layoutY="27.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" />
+                        <Text layoutX="70.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="lesson type" />
+                        <Text layoutX="70.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tutor name" />
+                        <Text layoutX="70.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="course name" />
+                     </children>
+                  </Pane>
+                  <Pane layoutX="12.0" layoutY="20.0" prefHeight="121.0" prefWidth="332.0" style="-fx-background-color: d4b9e1;">
+                     <children>
+                        <Button layoutX="213.0" layoutY="81.0" mnemonicParsing="false" text="send a message" />
+                        <Text layoutX="66.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="price" />
+                        <Text layoutX="65.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="lesson type" />
+                        <Circle fx:id="profileStudent1" fill="WHITE" layoutX="33.0" layoutY="33.0" radius="19.0" stroke="WHITE" strokeType="INSIDE" />
+                        <Text layoutX="66.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                        <Text layoutX="67.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="tutor name" />
+                        <Text layoutX="66.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="course name" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button fx:id="myScheduleButton" layoutX="21.0" layoutY="262.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="My Schedule">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </Button>
    </children>
 </Pane>
