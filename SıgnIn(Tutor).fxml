@@ -9,11 +9,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebdbff" height="406.0" layoutX="-6.0" layoutY="-1.0" stroke="#ebdbff" strokeType="INSIDE" width="609.0" />
       <Button fx:id="BackToLogInTutor" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
-      <Text layoutX="249.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Tutor">
+      <Text layoutX="252.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Tutor">
          <font>
             <Font name="Times New Roman Bold" size="20.0" />
          </font>

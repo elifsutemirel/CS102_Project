@@ -60,11 +60,6 @@
       </Text>
       <Circle fill="WHITE" layoutX="136.0" layoutY="160.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="#493175" layoutX="452.0" layoutY="160.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#493175" height="13.0" layoutX="108.0" layoutY="153.0" rotate="135.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#493175" height="13.0" layoutX="110.0" layoutY="153.0" rotate="45.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="13.0" layoutX="422.0" layoutY="154.0" stroke="BLACK" strokeType="INSIDE" width="59.0" />
-      <Circle fill="WHITE" layoutX="452.0" layoutY="140.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="452.0" layoutY="181.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
       <Text layoutX="521.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="findT!">
          <font>
             <Font name="BM YEONSUNG OTF" size="24.0" />
@@ -120,5 +115,9 @@
             <Font name="Times New Roman" size="13.0" />
          </font>
       </Text>
+      <Circle fill="#493175" layoutX="136.0" layoutY="191.0" radius="31.0" stroke="#493175" strokeType="INSIDE" />
+      <Circle fill="#493175" layoutX="136.0" layoutY="148.0" radius="19.0" stroke="#493175" strokeType="INSIDE" />
+      <Circle fill="#ebdbff" layoutX="452.0" layoutY="191.0" radius="31.0" stroke="#ebdbff" strokeType="INSIDE" />
+      <Circle fill="#ebdbff" layoutX="452.0" layoutY="148.0" radius="19.0" stroke="#ebdbff" strokeType="INSIDE" />
    </children>
 </AnchorPane>
