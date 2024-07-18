@@ -4,31 +4,28 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #d4b9e1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="11.0" layoutY="14.0" mnemonicParsing="false" text="Back">
+      <Button fx:id="backButton" layoutX="11.0" layoutY="14.0" mnemonicParsing="false" text="Back">
          <font>
             <Font name="Times New Roman" size="11.0" />
          </font>
       </Button>
-      <Circle fill="WHITE" layoutX="74.0" layoutY="25.0" radius="18.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.3" />
-      <Text layoutX="100.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tutor Name">
+      <Circle fx:id="generalProfileSign" fill="WHITE" layoutX="74.0" layoutY="25.0" radius="18.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.3" />
+      <Text fx:id="tutorNameText" layoutX="100.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tutor Name">
          <font>
             <Font name="Times New Roman" size="12.0" />
          </font>
       </Text>
-      <TextField layoutX="11.0" layoutY="365.0" prefHeight="25.0" prefWidth="509.0" promptText="Enter a message..." />
-      <Button layoutX="527.0" layoutY="365.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Send" />
-      <ScrollPane layoutX="12.0" layoutY="49.0" prefHeight="311.0" prefWidth="579.0">
-         <content>
-            <FlowPane prefHeight="311.0" prefWidth="575.0" />
-         </content>
-      </ScrollPane>
+      <TextField fx:id="messageTextField" layoutX="11.0" layoutY="365.0" prefHeight="25.0" prefWidth="509.0" promptText="Enter a message..." />
+      <Button fx:id="sendMessageButton" layoutX="527.0" layoutY="365.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Send" />
+      <ScrollPane fx:id="chatScrollPane" layoutX="12.0" layoutY="49.0" prefHeight="311.0" prefWidth="579.0" />
+      <Ellipse fx:id="profielBigCircle" fill="#d4b9e1" layoutX="74.0" layoutY="35.0" radiusX="13.0" radiusY="11.0" stroke="#d4b9e1" strokeType="INSIDE" />
+      <Circle fx:id="profileLittleCircle" fill="#d4b9e1" layoutX="74.0" layoutY="18.0" radius="8.0" stroke="#d4b9e1" strokeType="INSIDE" />
    </children>
 </AnchorPane>
