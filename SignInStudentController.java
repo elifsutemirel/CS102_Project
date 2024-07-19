@@ -10,6 +10,36 @@ import javafx.stage.Stage;
 import javafx.scene.Node;
 
 public class SignInStudentController {
+    @FXML
+    private Button BackToLogInStudent;
+
+    @FXML
+    private ComboBox<?> ParentsAge;
+
+    @FXML
+    private ComboBox<?> StudentBirthyear;
+
+    @FXML
+    private Text StudentCreateProfile;
+
+    @FXML
+    private Circle StudentCreateProfileCL;
+
+    @FXML
+    private Circle StudentCreateProfileCR;
+
+    @FXML
+    private Rectangle StudentCreateProfileRect;
+
+    @FXML
+    private TextField StudentMail;
+
+    @FXML
+    private TextField StudentPasswordSıgnIn;
+
+    @FXML
+    private TextField StudentUsernameSıgnIn;
+    
     private Stage stage;
     private Scene scene;
 

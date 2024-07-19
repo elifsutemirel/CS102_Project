@@ -7,22 +7,16 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #493175;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back">
+      <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back">
          <font>
             <Font name="Times New Roman" size="11.0" />
          </font>
       </Button>
-      <ScrollPane layoutX="14.0" layoutY="44.0" prefHeight="326.0" prefWidth="569.0">
-         <content>
-            <VBox prefHeight="333.0" prefWidth="568.0" style="-fx-background-color: #d4b9e1;" />
-         </content>
-      </ScrollPane>
       <Text fill="WHITE" layoutX="522.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FindT!">
          <font>
-            <Font name="Bell MT" size="22.0" />
+            <Font name="BM YEONSUNG OTF" size="20.0" />
          </font>
       </Text>
       <Text fill="WHITE" layoutX="59.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Chats">
@@ -30,5 +24,10 @@
             <Font name="Times New Roman" size="20.0" />
          </font>
       </Text>
+      <ScrollPane fx:id="chatScrollPane" layoutX="23.0" layoutY="50.0" prefHeight="329.0" prefWidth="554.0">
+         <content>
+            <VBox fx:id="chatVBox" prefHeight="326.0" prefWidth="550.0" />
+         </content>
+      </ScrollPane>
    </children>
 </AnchorPane>

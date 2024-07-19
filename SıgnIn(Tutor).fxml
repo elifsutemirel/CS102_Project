@@ -5,11 +5,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignInTutorController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ebdbff" height="406.0" layoutX="-6.0" layoutY="-1.0" stroke="#ebdbff" strokeType="INSIDE" width="609.0" />
       <Button fx:id="BackToLogInTutor" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
@@ -54,9 +55,11 @@
       </Text>
       <ComboBox fx:id="TutorBranch" layoutX="390.0" layoutY="201.0" prefHeight="30.0" prefWidth="113.0" />
       <ComboBox fx:id="TutorExperience" layoutX="390.0" layoutY="240.0" prefHeight="30.0" prefWidth="113.0" />
-      <Rectangle fx:id="TutorCreateProfileRect" arcHeight="5.0" arcWidth="5.0" fill="#493175" height="26.0" layoutX="452.0" layoutY="347.0" stroke="#493175" strokeType="INSIDE" width="115.0" />
-      <Circle fx:id="tutorCreateProfileCL" fill="#493175" layoutX="452.0" layoutY="360.0" radius="13.0" stroke="#493175" strokeType="INSIDE" />
-      <Circle fx:id="TutorCreateProfileCR" fill="#493175" layoutX="567.0" layoutY="360.0" radius="13.0" stroke="#493175" strokeType="INSIDE" />
-      <Text fx:id="TutorCreateProfile" fill="WHITE" layoutX="469.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Profile" />
+      <Rectangle fx:id="TutorCreateProfileRect" arcHeight="5.0" arcWidth="5.0" fill="#493175" height="26.0" layoutX="452.0" layoutY="347.0" onMouseClicked="#goTutorMenuPage" stroke="#493175" strokeType="INSIDE" width="115.0" />
+      <Circle fx:id="tutorCreateProfileCL" fill="#493175" layoutX="452.0" layoutY="360.0" onMouseClicked="#goTutorMenuPage" radius="13.0" stroke="#493175" strokeType="INSIDE" />
+      <Circle fx:id="TutorCreateProfileCR" fill="#493175" layoutX="567.0" layoutY="360.0" onMouseClicked="#goTutorMenuPage" radius="13.0" stroke="#493175" strokeType="INSIDE" />
+      <Text fx:id="TutorCreateProfile" fill="WHITE" layoutX="469.0" layoutY="365.0" onMouseClicked="#goTutorMenuPage" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Profile" />
+      <Ellipse fill="#ebdbff" layoutX="298.0" layoutY="179.0" radiusX="46.0" radiusY="29.0" stroke="#ebdbff" strokeType="INSIDE" />
+      <Circle fill="#ebdbff" layoutX="298.0" layoutY="132.0" radius="18.5" stroke="#ebdbff" strokeType="INSIDE" />
    </children>
 </AnchorPane>
